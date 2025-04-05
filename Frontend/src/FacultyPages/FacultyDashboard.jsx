@@ -13,8 +13,9 @@ import {
   BarElement,
 } from "chart.js";
 import { useAuthStore } from "../contentStore/authStore";
+ChartJS.register(  
 
-ChartJS.register(
+  
   ArcElement,
   Tooltip,
   Legend,
