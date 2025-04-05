@@ -7,7 +7,7 @@ export const useAuthStore = create((set) => ({
     userType:null,
     isSignup: false,
     isChekingAuth: false,
-    isLoggingOut: false,
+    isLoggingOut:  false,
     isLogin: false, 
     setUserType:(userT) => {
         set({userType:userT})
